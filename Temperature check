@@ -1,0 +1,11 @@
+a=int(input("enter temperature in celcius: "))
+if a<=10:
+    print(f"{a}°C is very cold")
+elif a>10 and a<=18:
+    print(f"{a}°C is cold")
+elif a>18 and a<=27:
+    print(f"{a}°C is pleasant")
+elif a>27 and a<=35:
+    print(f"{a}°C is hot")
+else:
+    print(f"{a}°C is very hot")
