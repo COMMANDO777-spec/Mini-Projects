@@ -1,0 +1,8 @@
+a=int(input("enter integer you want to print seperately: "))
+b=0
+while a!=0:
+    b=b*10+a%10
+    a//=10
+while b!=0:
+    print(b%10)
+    b//=10
