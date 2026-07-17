@@ -1,0 +1,4 @@
+a=input("enter the word you want to print: ")
+b=int(input("enter the number of times you want to print the word: "))
+for i in range(0,b):
+    print(a)
