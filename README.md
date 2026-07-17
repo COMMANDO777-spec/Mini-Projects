@@ -1,2 +1,2 @@
 # Mini-Projects
-Small simple python codes 
+Simple python codes 
