@@ -1,0 +1,7 @@
+a=int(input("enter the number you want your countdown to start from: "))
+if a>=0:
+    for i in range(a,-1,-1):
+        print(i)
+else:
+    for i in range(a,1,1):
+        print(i)
