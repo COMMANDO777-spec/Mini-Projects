@@ -1,0 +1,5 @@
+a=int(input("enter the number till you want your sum to be: "))
+b=0
+for i in range(a+1):
+    b+=i
+print(b)
