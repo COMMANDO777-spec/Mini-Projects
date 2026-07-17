@@ -1,0 +1,7 @@
+a=input("enter your gender(m/f): ")
+if a=="m" or a=="M":
+    print("hello sir")
+elif a=="f" or a=="F":
+    print("hello ma'am")
+else:
+    print("invalid")
