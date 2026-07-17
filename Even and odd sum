@@ -1,0 +1,16 @@
+a=int(input("enter the number till you want the sum to be: "))
+b=c=0
+if a>=0:
+    for i in range(a+1):
+        if i%2==0:
+            b+=i
+        else:
+            c+=i
+    print(f"even sum is {b}\nodd sum is {c}")
+else:
+    for i in range(a,1):
+        if i%2==0:
+            b+=i
+        else:
+            c+=i
+    print(f"even sum is {b}\nodd sum is {c}")
