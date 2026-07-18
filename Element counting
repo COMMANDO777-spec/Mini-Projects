@@ -1,0 +1,12 @@
+a=int(input("enter the number of elements you want in a list: "))
+b=[]
+for i in range(a):
+    c=input("enter elements: ")
+    b.append(c)
+d={}
+for i in b:
+    if i in d.keys():
+        d[i]=d[i]+1
+    else:
+        d[i]=1
+print(d)
