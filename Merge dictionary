@@ -1,0 +1,15 @@
+a=int(input("enter the number of entries you want in first dictionary: "))
+b={}
+for i in range(a):
+    c=input("enter key: ")
+    d=input("enter value: ")
+    b[c]=d
+e=int(input("enter the number of entries you want in second dictionary: "))
+f={}
+for i in range(e):
+    g=input("enter key: ")
+    h=input("enter value: ")
+    f[g]=h
+for i in f:
+    b[i]=f[i]
+print(b)
