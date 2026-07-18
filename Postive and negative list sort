@@ -1,0 +1,10 @@
+a=int(input("enter the number of elements in list: "))
+c=[]
+d=[]
+for i in range(0,a):
+    b=int(input("enter elements in list: "))
+    if b>=0:
+        c.append(b)
+    else:
+        d.append(b)
+print(f"postive:{c}\nnegative:{d}")
