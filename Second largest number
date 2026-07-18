@@ -1,0 +1,14 @@
+a=int(input("enter the number of elements in list: "))
+c=[]
+for i in range(a):
+    b=int(input("enter elements in list: "))
+    c.append(b)
+d=c[0]
+e=c[0]
+for i in range(a):
+    if c[i]>d:
+        e=d
+        d=c[i]
+    elif c[i]>e:
+        e=c[i]
+print(f"second largest number: {e}")
