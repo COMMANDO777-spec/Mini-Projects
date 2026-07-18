@@ -1,0 +1,10 @@
+a=int(input("enter the number of entries you want in first dictionary: "))
+b={}
+for i in range(a):
+    c=input("enter key: ")
+    d=int(input("enter integer value: "))
+    b[c]=d
+e=0
+for i in b:
+    e+=b[i]
+print(f"total sum of values is: {e}")
