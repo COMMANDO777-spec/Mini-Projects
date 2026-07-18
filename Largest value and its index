@@ -1,0 +1,13 @@
+a=int(input("enter the number of elements in list: "))
+c=[]
+for i in range(0,a):
+    b=int(input("enter elements in list: "))
+    c.append(b)
+d=0
+e=0
+for i in range(a):
+    if c[i]>d:
+        d=c[i]
+        e=i
+print(f"largest value: {d}")
+print(f"index: {e}")
